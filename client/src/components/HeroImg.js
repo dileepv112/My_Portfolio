@@ -34,7 +34,7 @@ const HeroImg = () => {
             <Link to="/contact" className="btn btn-light"> 
                contact
             </Link>
-            <a href="Resume.jpg" download="Dileep Resume.jpg">
+            <a href="myresume.png" download="Dileep Resume.jpg">
               <button className="btn btn-light">Get Resume</button>
             </a>
           </div>
