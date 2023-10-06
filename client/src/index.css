@@ -12,7 +12,7 @@
 } 
 
 h1,h4,p,a{
-  color: #ff00ff;
+  color:dimgray;
   text-decoration: none;
 }
 
@@ -41,6 +41,9 @@ ul{
   color: #fff;
   transition: 0.3s;
 }
+/* a:visited{
+  color:darkseagreen;
+} */
 a:hover{
-  color: #4000ff;
+  color:yellow;
 }

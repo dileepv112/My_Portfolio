@@ -1,5 +1,5 @@
 import "./HeroImgStyle.css";
-import IntroImg from "../assets/introimg.jpg"
+import IntroImg from "../assets/me1.jpg"
 import React from 'react'
 import {Link} from "react-router-dom"
 import Typical from "react-typical";
@@ -18,7 +18,7 @@ const HeroImg = () => {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Full Stack Devloper💻",
+                    "Full Stack Developer💻",
                     1000,
                     "MERN Stack Dev😎",
                     1000,
@@ -28,14 +28,14 @@ const HeroImg = () => {
              
             </span>
           <div>
-            <Link to="/project" className="btn"> 
+            <Link to="/project" className="btn btn-light"> 
                projects
             </Link>
             <Link to="/contact" className="btn btn-light"> 
                contact
             </Link>
             <a href="Resume.jpg" download="Dileep Resume.jpg">
-              <button className="btn">Get Resume</button>
+              <button className="btn btn-light">Get Resume</button>
             </a>
           </div>
         </div>
