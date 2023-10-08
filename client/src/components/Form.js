@@ -20,12 +20,12 @@ const Form = () => {
   return (
     <div className="form">
       <form ref={form} onSubmit={sendEmail}>
-        <label>Your Name</label>
-        <input type="text" name="from_name"></input>
-        <label>Email</label>
-        <input type="email" name="from_email"></input>
-        <label>Message</label>
-        <textarea rows="6" placeholder="Type your message here" name="message"/>
+        
+        <input type="text" name="from_name" placeholder="Name" required></input>
+        
+        <input type="email" name="from_email" placeholder="Email" required></input>
+        
+        <textarea rows="5" placeholder="Type your message here" name="message" required/>
         <button className="btn" value="Send">Send</button>
       </form>
     </div>
