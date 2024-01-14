@@ -1,5 +1,6 @@
 import "./HeroImgStyle.css";
-import IntroImg from "../assets/me1.jpg"
+import IntroImg1 from "../assets/me1.jpg"
+import IntroImg from "../assets/introimg.jpg"
 import React from 'react'
 import {Link} from "react-router-dom"
 import Typical from "react-typical";
@@ -9,12 +10,13 @@ const HeroImg = () => {
     <div className="hero">
         <div className="mask">
            <img className="intro-img" src={IntroImg} alt="IntroImg"/>
+           <img className="intro-img1" src={IntroImg1} alt="IntroImg"/>
         </div>
         <div className="content">
-          <p>HI, I'M Dileep Vishwakarma</p>
+          <p className="pp1">HI, I'M Dileep Vishwakarma</p>
           <span className="primary-text">
               {" "}
-              <h1>
+              <h1 className="hh1">
                 <Typical
                   loop={Infinity}
                   steps={[
