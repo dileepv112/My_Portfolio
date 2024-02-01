@@ -1,5 +1,5 @@
 import "./HeroImgStyle.css";
-import IntroImg1 from "../assets/me1.jpg"
+import IntroImg1 from "../assets/IMG1.png"
 import IntroImg from "../assets/introimg.jpg"
 import React from 'react'
 import {Link} from "react-router-dom"
@@ -36,7 +36,7 @@ const HeroImg = () => {
             <Link to="/contact" className="btn btn-light"> 
                contact
             </Link>
-            <a href="myresume.png" download="Dileep Resume.jpg">
+            <a href="My_Resume.pdf" download="Dileep Resume">
               <button className="btn btn-light">Get Resume</button>
             </a>
           </div>
